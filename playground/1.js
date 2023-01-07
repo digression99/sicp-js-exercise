@@ -50,6 +50,7 @@ function sqrt(x) {
 }
 */
 
+// testing
 // block structure - 2, lexical scoping
 function sqrt(x) {
   function is_good_enough(guess) {
