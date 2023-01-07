@@ -55,5 +55,3 @@ log(sqrt2(0.0000001)) // succeeds.
 // cases in "sqrt" function, since it stops when the value that is proper enough to change
 // is calculated.
 
-
-
