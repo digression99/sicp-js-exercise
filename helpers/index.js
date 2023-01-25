@@ -11,3 +11,9 @@ export const isEven = (n) => n % 2 === 0
 export const math_floor = (n) => Math.floor(n)
 
 export const math_random = () => Math.random()
+
+export const inc = (n) => n + 1
+
+export const identity = (n) => n
+
+export const add = (a, b) => a + b
