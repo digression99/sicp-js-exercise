@@ -12,8 +12,21 @@ export const math_floor = (n) => Math.floor(n)
 
 export const math_random = () => Math.random()
 
+export const math_sin = (n) => Math.sin(n)
+
+export const math_cos = (n) => Math.cos(n)
+
+// Math.log returns log_e(n), which is natural log.
+export const math_log = (n) => Math.log(n)
+
 export const inc = (n) => n + 1
 
 export const identity = (n) => n
 
 export const add = (a, b) => a + b
+
+export const positive = (n) => n >= 0
+
+export const negative = (n) => n < 0
+
+export const average = (...args) => args.reduce(add) / args.length
