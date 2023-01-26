@@ -21,10 +21,12 @@ function add(a, b) {
   return a + b
 }
 
+// recursive
 // function sum(term, a, next, b) {
 //   return accumulate(add, 0, term, a, next, b)
 // }
 
+// iterative
 function sum(term, a, next, b) {
   return accumulate_iterative(add, 0, term, a, next, b)
 }

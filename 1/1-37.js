@@ -12,7 +12,9 @@ function cont_frac(n, d, k) {
 // a
 // 1 / theta = 1 / 1.6180327 = 0.6180344...
 // log(cont_frac(i => 1, i => 1, 10)) // 0.6181818
+// log(cont_frac(i => 1, i => 1, 11)) // 0.6179
 // log(cont_frac(i => 1, i => 1, 12)) // 0.61805555
+// log(cont_frac(i => 1, i => 1, 13)) // 0.61805555
 // log(cont_frac(i => 1, i => 1, 100))
 // log(cont_frac(i => 1, i => 1, 1000))
 

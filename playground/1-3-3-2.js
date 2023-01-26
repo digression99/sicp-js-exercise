@@ -17,8 +17,8 @@ function fixed_point(f, first_guess) {
   return try_with(first_guess)
 }
 
-log(fixed_point(math_cos, 1))
-log(fixed_point(y => math_sin(y) + math_cos(y), 1))
+// log(fixed_point(math_cos, 1))
+// log(fixed_point(y => math_sin(y) + math_cos(y), 1))
 
 function sqrt(x) {
   // return fixed_point(y => x / y, 1)

@@ -7,8 +7,8 @@ function deriv(g) {
   return x => (g(x + dx) - g(x)) / dx
 }
 
-log(deriv(cube)(4)) // 3 * 4^2 
-log(deriv(cube)(5)) // 3 * 5^2 
+// log(deriv(cube)(4)) // 3 * 4^2 
+// log(deriv(cube)(5)) // 3 * 5^2 
 
 // if x -> g(x) is differentiable,
 // then the root of g(x) = 0 is a fixed point of the function x -> f(x).

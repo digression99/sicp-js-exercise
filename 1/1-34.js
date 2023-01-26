@@ -1,4 +1,4 @@
-import { sq, log } from '../helpers/index.js'
+import { log } from '../helpers/index.js'
 
 function f(g) {
   console.log('g :', g)

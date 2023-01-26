@@ -11,8 +11,8 @@ function repeated(f, n) {
     : repeated(compose(f, f), n - 1)
   // : compose(repeated(f, n - 1), f) - 
 }
+
 // try 3 times of average_damp.
-//
 function average_damp(f) {
   return x => average(x, f(x))
 }
